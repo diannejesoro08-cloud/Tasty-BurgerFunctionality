@@ -1,0 +1,8 @@
+{
+  "mainMenu": [
+    { "title": "Home", "link": "/" },
+    { "title": "Menu", "link": "/menu" },
+    { "title": "About", "link": "/about" },
+    { "title": "Contact", "link": "/#contact" }
+  ]
+}
