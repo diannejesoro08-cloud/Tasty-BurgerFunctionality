@@ -13,7 +13,7 @@ function HeroSection() {
       </div>
       <div className="w-full lg:w-1/2">
         <motion.div initial={{ y: 100, opacity: 0 }} animate={{ y: 0, opacity: 100 }} transition={{ ease: "easeOut", duration: 0.4 }}>
-          <img src="/beef-burger.webp" className="w-full" />
+          <img src="/beef-burger.webp" alt="Tasty Burger" className="w-full" />
         </motion.div>
       </div>
     </div>
