@@ -11,7 +11,7 @@ function MenuItem({ id, name, image, price, addToCart }: MenuItemComponentProps)
   return (
     <div className="group">
       <div className="flex flex-col items-center relative">
-        <button type="button" onClick={() => toggleFavorite(id)} aria-label={favorite ? `Remove ${name} from favorites` : `Add ${name} to favorites`} className="absolute right-2 top-0 z-10 p-2 text-white transition-colors hover:text-yellow-400">
+        <button type="button" onClick={() => toggleFavorite(id)} aria-label={favorite ? `Remove ${name} from favorites` : `Add ${name} to favorites`} className="absolute right-2 top-0 z-10 p-2 text-white transition-colors hover:text-yellow-400 focus:outline-none focus:ring-2 focus:ring-yellow-400 rounded-full">
           <svg className="w-7 h-7" aria-hidden="true" fill={favorite ? "currentColor" : "none"} stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
             <path d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.598 1.126-4.312 2.733C11.598 4.876 9.935 3.75 8 3.75 5.411 3.75 3.312 5.765 3.312 8.25c0 7.22 8.688 12 8.688 12s8.688-4.78 8.688-12z" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
