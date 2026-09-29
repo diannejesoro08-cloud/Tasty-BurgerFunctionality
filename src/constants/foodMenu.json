@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "cheese hamburger", "image": "/beef-burger.webp", "price": 89 },
+  { "id": 2, "name": "chicken burger", "image": "/beef-burger.webp", "price": 89 },
+  { "id": 3, "name": "roots burger", "image": "/beef-burger.webp", "price": 99 },
+  { "id": 4, "name": "volkano burger", "image": "/beef-burger.webp", "price": 109 },
+  { "id": 5, "name": "doubleB burger", "image": "/beef-burger.webp", "price": 119 },
+  { "id": 6, "name": "doodle burger", "image": "/beef-burger.webp", "price": 99 }
+]
