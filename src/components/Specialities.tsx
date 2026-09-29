@@ -6,7 +6,7 @@ function Specialities() {
     <div className="flex flex-col lg:flex-row items-center">
       <div className="w-full lg:w-1/2">
         <motion.div initial={{ x: -100, opacity: 0 }} whileInView={{ x: 0, opacity: 100 }} transition={{ duration: 1 }} viewport={{ once: true }} className="flex flex-row justify-center lg:justify-start">
-          <img src="/about-img.png" className="w-1/2 lg:w-3/4" />
+          <img src="/about-img.png" alt="Tasty Burger specialties" className="w-1/2 lg:w-3/4" />
         </motion.div>
       </div>
       <div className="w-full lg:w-1/2">
