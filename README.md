@@ -22,16 +22,3 @@ The map and contact location are set to **Sorsogon City, Sorsogon, Philippines**
 npm install
 npm run dev
 ```
-
-Build for production:
-
-```bash
-npm run build
-```
-
-## Git identity
-
-```bash
-git config user.name "diannejesoro08-cloud"
-git config user.email "diannejesoro08@gmail.com"
-```
